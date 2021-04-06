@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Akronim|Anton|Indie+Flower|Merriweather|Modak');
+
+
+#nav-bar .navbar{
+  background: #000000;
+}
+#nav-bar .navbar .navbar-brand{
+  color: #fff;
+  padding-left: 16px;
+}
+#nav-bar .navbar-brand{
+  font-family: 'Akronim';
+  font-weight: 600;
+  font-size: 45px;
+}
+.navbar ul li a{
+  font-size: 18px;
+  color: white! important;
+  font-weight: bold;
+}
+.navbar ul li a:hover{
+  color: rgb(250, 0, 0)! important;
+}
+.navbar ul li {
+  padding: 0px 10px;
+}
+#nav-bar .btn-info{
+  background: gold;
+  color:black;
+  border: none;
+}
+#nav-bar .btn-info:hover{
+  background: white;
+  color:#000;
+}
+/*****************************************************/
+/**********************Cover*******************************/
+#cover{
+    
+    background-image: url('../../frontend/image/Sushi-and-sashimi-variety-on-rustic-background-By-Alena-Haurylik-2.jpeg');
+    background-attachment: fixed;
+    background-size:cover;
+    padding: 160px 30px;
+    height: 600px;
+}
+#cover .card{
+    background-color: black;
+    text-align: justify;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+
+
+/*****************************************************/
+#recipe .upper-title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding:  120px 0px 50px 0px;
+    font-weight: 600;
+   }
+   #recipe .col-lg-4 .card .title{
+     font-weight: 600;
+     font-family: 'Abril Fatface', cursive;
+     padding-bottom: 7px;
+     font-size: 18px;
+   }
+   #recipe .col-lg-4 .card .pera{
+     font-weight: 500;
+     color: grey;
+     text-align: justify;
+   }
+   #recipe .full-recipe{
+     float: left;
+   }
+   #recipe .cont{
+    padding: 40px 20px;
+    margin-top: 95px;
+  }
+
+  .recipe{
+    margin-bottom: 5px;
+    transition: 1s;
+   }
+.recipe:hover{
+    background-color: rgb(209, 209, 209);
+    transition: 1s;
+   }
+
+   #recipe .card .button{
+     border-radius: 20px;
+     margin: 7px 0px;
+   }
+
+#recipe .btn-default{
+    text-decoration: none;
+}
+
+#recipe .btn-default{
+    background-color: #007bff;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: 700;
+    padding: 10px 30px;
+}
+
+#recipe .btn-default:hover{
+  background-color: rgb(128, 146, 140);
+}
+
+.list-group-item-style{
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  transition: 1s;
+}
+
+
+#recipe img{
+  border-radius: 20px;
+}
+
+.category-name{
+  background-color: rgb(141, 54, 54);
+  color: whitesmoke;
+  padding: 1px 16px ;
+}
+
+
+/*****************************************************/
+
+
+
+/* footer */
+#footer{
+    padding-top: 75px; 
+    background: #000000;
+  }
+#footer .head{
+    padding-bottom: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Lalezar', cursive;
+}
+#footer p{
+    color: #fff;
+    text-align: justify;
+    padding-right: 45px;
+}
+  
+#footer .fab{
+      padding: 5px;
+      font-size: 40px;
+      margin: 20px;
+}
+#footer .fab:hover{
+  color: grey;
+}
+  
+
+
+/**************************************/
+.search{
+  margin-top: 40px;
+  
+}
+.search h2{
+  font-weight: 600;
+  font-family: 'Abril Fatface', cursive;
+  padding-bottom: 7px;
+}
+.input-group.md-form.form-sm.form-1 input{
+  border: 1px solid #bdbdbd;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+
+
+
+
+
+/* subscribe */
+
+#subscribe{
+  background-color: #111111;
+  color: rgb(238, 238, 238);
+  padding: 60px 80px;
+  margin-top: 40px;
+}
+#subscribe h1{
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* subscribe */
+
+
+
+/* meet our team */
+#meet{
+  background-color: #d6d6d6;
+  color: rgb(16, 10, 10);
+  padding: 45px 40px;
+}
+#meet .col-md-4{
+  padding: 5px 55px;
+}
+#meet img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+#meet small{
+  color: grey;
+}
+#meet .head{
+  color:rgb(107, 96, 96);
+}
+#meet .name{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #007bff;
+  font-weight: 700;
+}
+/* meet our team */
